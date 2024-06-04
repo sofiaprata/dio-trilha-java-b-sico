@@ -7,7 +7,7 @@ public class ContaTerminal {
 
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
-        //Exibir as mensagens para o nosso usuário
+        //Exibir as mensagens para o nosso usuário com resposta
 
         System.out.println("Por favor, digite seu nome: ");
         String nomeCliente = scanner.next();
@@ -23,8 +23,6 @@ public class ContaTerminal {
 
         System.out.println("Digite seu saldo: ");
         float saldo = scanner.nextFloat();
-
-        //Obter pela scanner os valores digitados no terminal
 
         //Exibir a mensagem conta criada
 
